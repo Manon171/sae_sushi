@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+    background-color: #E0E1DD;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color:#84A98C;
+  color: white;
+  padding: 1px  10px;
+  margin:0;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 500px; /* espace entre le nom et les liens */
+}
+.nav-links a {
+  text-decoration: none;
+   color: white;
+  text-shadow:
+    -2px -2px 0 black,
+     2px -2px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  margin-right: 30px; /* espace entre les liens */
+  font-size: 23px;
+  padding-bottom:0px;
+}
+.logo img {
+  height: 120px; /* ajustez la hauteur selon vos besoins */
+}
+.profil img, .panier img {
+  height: 40px; /* ajustez la hauteur selon vos besoins */
+}
+.profil{
+    margin-left:380px;
+}
+.menu_text{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 100px;
+    text-decoration: solid underline;
+}
+.boxes_text{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    margin-top:-43px;
+    margin-left: 220px;
+}
+.offres_text{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    margin-top:-45px;
+    margin-left: 320px;
+}
