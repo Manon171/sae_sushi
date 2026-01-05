@@ -1,0 +1,7 @@
+<div *ngFor="let box of boxes">
+  <h3>{{ box.name }}</h3>
+  <p>{{ box.description }}</p>
+  <ul>
+    <li *ngFor="let flavor of box.flavors">{{ flavor }}</li>
+  </ul>
+</div>
