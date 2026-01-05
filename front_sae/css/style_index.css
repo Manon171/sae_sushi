@@ -1,0 +1,57 @@
+body {
+  background-image: url("../image/fond.jpg"); /* chemin vers l’image de fond */
+  background-size: cover;        /* l’image couvre tout l’écran */
+  background-position: center;   /* centrée */
+  background-repeat: no-repeat;  /* pas de répétition */
+  height: 100vh;
+  margin: 0;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+  padding: 15px 40px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 500px; /* espace entre le nom et les liens */
+}
+.nav-links a {
+  text-decoration: none;
+   color: white;
+  text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  margin-right: 30px; /* espace entre les liens */
+}
+.logo img {
+  height: 90px; /* ajustez la hauteur selon vos besoins */
+  margin-bottom: 700px;
+}
+.profil img, .panier img {
+  height: 40px; /* ajustez la hauteur selon vos besoins */
+}
+.profil{
+    margin-left:380px;
+}
+.deguster{
+   background-color: #A7C957;
+   display: inline-block;
+    color: white;
+    border-radius: 20px;
+  padding: 5px 25px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin: left 60px;
+    margin-top: 660px;
+}
