@@ -4,7 +4,8 @@ import { BoxesService, Box } from '../../services/boxes.service';
 @Component({
   selector: 'app-list',
   templateUrl: './list.component.html',
-  styleUrls: ['./list.component.css']
+  styleUrls: ['./list.component.css'],
+  standalone: true,
 })
 export class ListComponent implements OnInit {
 
@@ -13,7 +14,7 @@ export class ListComponent implements OnInit {
   constructor(private boxesService: BoxesService) { }
 
   ngOnInit(): void {
- this.boxesService.getAll().subscribe(
+this.boxesService.getAll().subscribe(
   (data: Box[]) => {
     this.boxes = data;
   },

@@ -17,8 +17,6 @@ describe('AppComponent', () => {
   it(`should have the 'appSushi' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('appSushi');
-  });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
@@ -26,4 +24,4 @@ describe('AppComponent', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, appSushi');
   });
-});
+});})

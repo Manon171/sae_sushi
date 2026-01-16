@@ -1,0 +1,75 @@
+/* Conteneur du formulaire */
+form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Style des labels */
+form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Style des champs input */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 1.8px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+/* Focus sur les champs */
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+/* Bouton de soumission */
+form button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive : réduire la largeur sur petits écrans */
+@media (max-width: 480px) {
+  form {
+    margin: 20px 15px;
+    padding: 20px;
+  }
+}
+
+p {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 15px;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+}
